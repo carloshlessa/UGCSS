@@ -16,7 +16,7 @@ function browserSync(done) {
         baseDir: "./"
       },
       port: 3000,
-      startPath: './index.html'
+      startPath: './css/outsystems-ui.css'
     });
     done();
   }
@@ -73,7 +73,7 @@ function watchFiles() {
 // Defining the tasks
 const vendor = gulp.series(clean);
 const build = gulp.series(vendor);
-const watch = gulp.series(build ,gulp.parallel(watchFiles, browserSync,style));
+const watch = gulp.series(build ,gulp.parallel(watchFiles,browserSync,style));
 
 // Exporting the tasks 
 
