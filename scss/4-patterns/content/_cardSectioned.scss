@@ -82,6 +82,9 @@
 
 /* Demo User Group */
 
+// .columns-item .FiltersWrapper .OSBlockWidget .card {
+//     background-color: var(--color-neutral-0);
+// }
 .card.card-sectioned.flex-direction-column.align-center {
     border-radius: 50px;
     box-shadow: 1px 1px 35px 0 #000;
@@ -89,6 +92,7 @@
     -ms-transform-origin: 100% 50%;
     transform-origin: 100% 50%;
     z-index: 10;
+    height: auto;
 }
 
 .item-info .OSBlockWidget .card.card-sectioned.flex-direction-column {
@@ -97,8 +101,19 @@
     width: 100%;
 }
 
-.item-info .OSBlockWidget .card.card-sectioned.flex-direction-column .card-sectioned-top.flex-direction-column .ph.card-content {
-    width: 50%;
+.item-info .OSBlockWidget .card.card-sectioned.flex-direction-column .card-sectioned-top.flex-direction-column {
+    & .ph.card-title .item-info__title {}
+    & .ph.card-content .item-info__content {
+        width: 50%;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    & .ph.card-bottom .item-info__footer {
+        font-weight: bold;
+    }
 }
 
 .gallery-page {
