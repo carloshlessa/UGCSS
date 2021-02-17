@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("https://outsprintltd-dev.outsystemscloud.com/UG_CSS_Project/SourceSansPro-Bold.ttf") format("truetype");
+    font-weight: var(--font-bold);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("https://outsprintltd-dev.outsystemscloud.com/UG_CSS_Project/SourceSansPro-Light.ttf") format("truetype");
+    font-weight: var(--font-light);
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("https://outsprintltd-dev.outsystemscloud.com/UG_CSS_Project/SourceSansPro-Italic.ttf") format("truetype");
+    font-weight: var(--font-regular);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "SourceSansPro";
+    src: url("https://outsprintltd-dev.outsystemscloud.com/UG_CSS_Project/SourceSansPro-Regular.ttf") format("truetype");
+    font-weight: var(--font-regular);
+    font-style: normal;
+}

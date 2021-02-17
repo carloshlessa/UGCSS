@@ -3,19 +3,19 @@
 /* Typography - Size */
 $font-size-display: 36px !default;
 
-$font-size-h1: 32px !default;
-$font-size-h2: 28px !default;
-$font-size-h3: 26px !default;
-$font-size-h4: 22px !default;
+$font-size-h1: 72px !default;
+$font-size-h2: 48px !default;
+$font-size-h3: 32px !default;
+$font-size-h4: 24px !default;
 $font-size-h5: 20px !default;
 $font-size-h6: 18px !default;
 
-$font-size-xl: 24px !default;
-$font-size-l: 20px !default;
-$font-size-m: 18px !default;
-$font-size-base: 16px !default;
-$font-size-s: 14px !default;
-$font-size-xs: 12px !default;
+$font-size-xl: 48px !default;
+$font-size-l: 32px !default;
+$font-size-m: 24px !default;
+$font-size-base: 20px !default;
+$font-size-s: 18px !default;
+$font-size-xs: 14px !default;
 
 /* Typography - Weight */
 $font-light: 300 !default;
@@ -23,10 +23,10 @@ $font-regular: 400 !default;
 $font-semi-bold: 600 !default;
 $font-bold: 700 !default;
 
-$colors: "primary", "secondary", "red", "pink", "grape", "violet", "indigo", "blue", "cyan", "teal", "green", "lime",
+$colors: "primary", "secondary","terciary", "red", "pink", "grape", "violet", "indigo", "blue", "cyan", "teal", "green", "lime",
   "yellow", "orange";
 
-$color-primary: #a7de38 !default;
+$color-primary: #a7e038 !default;
 $color-primary-lightest: lighten($color-primary, 40%);
 $color-primary-lighter: lighten($color-primary, 25%);
 $color-primary-light: lighten($color-primary, 15%);
@@ -36,13 +36,23 @@ $color-primary-darkest: darken($color-primary, 15%);
 $color-primary-hover: #5fde38;
 $color-primary-selected: rgba(20, 110, 245, 0.12);
 
-$color-secondary: #031c4b !default;
+$color-primary-link: #0d3dcc;
+
+$color-secondary: #071a52 !default;
 $color-secondary-lightest: lighten($color-secondary, 40%);
 $color-secondary-lighter: lighten($color-secondary, 25%);
 $color-secondary-light: lighten($color-secondary, 15%);
 $color-secondary-dark: darken($color-secondary, 5%);
 $color-secondary-darker: darken($color-secondary, 10%);
 $color-secondary-darkest: darken($color-secondary, 15%);
+
+$color-terciary: #ffffff   !default;
+$color-terciary-lightest: lighten($color-terciary, 40%);
+$color-terciary-lighter: lighten($color-terciary, 25%);
+$color-terciary-light: lighten($color-terciary, 15%);
+$color-terciary-dark: darken($color-terciary, 5%);
+$color-terciary-darker: darken($color-terciary, 10%);
+$color-terciary-darkest: darken($color-terciary, 15%);
 
 $color-red: #c92a2a !default;
 $color-pink: #d6336c !default;
@@ -191,7 +201,7 @@ $shadow-m: 0 4px 6px rgba(0, 0, 0, 0.1) !default;
 $shadow-l: 0 6px 8px rgba(0, 0, 0, 0.1) !default;
 $shadow-xl: 0 8px 10px rgba(0, 0, 0, 0.1) !default;
 
-$color-background-body: #f3f6f8 !default;
+$color-background-body: #f5f5f8 !default;
 $header-size: 56px !default;
 $side-menu-size: 300px !default;
 
