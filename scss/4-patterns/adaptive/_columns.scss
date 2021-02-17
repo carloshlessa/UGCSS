@@ -338,12 +338,12 @@
 /* Demo User Group */
 
 .columns.columns-small-right.gutter-l.tablet-break-all.phone-break-all .columns-item:first-child .item-info {
-    border: #fffefe 10px solid;
+    border: var(--color-primary) 10px solid;
     margin-left: -169px;
     width: 450px;
-    height: 600px;
+    height: 560px;
     bottom: 500px;
-    top: 10%;
+    top: 14%;
     position: absolute;
 }
 
