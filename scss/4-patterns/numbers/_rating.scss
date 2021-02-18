@@ -1,0 +1,74 @@
+/* $4.5.7 - Patterns - Numbers - Rating */
+
+.rating {
+    --rating-size: 16px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: var(--rating-size);
+    pointer-events: none;
+    -servicestudio-display: inline-flex;
+    &.rating.rating {
+        &-small {
+            --rating-size: 8px;
+            & .rating-item {
+                padding-right: calc(var(--rating-size) + var(--space-xs));
+            }
+        }
+        &-medium {
+            --rating-size: 24px;
+        }
+    }
+    & fieldset {
+        border: none;
+        display: contents;
+        margin: 0;
+        padding: 0;
+    }
+    &-item {
+        display: inline-block;
+        position: relative;
+        width: var(--rating-size);
+        height: var(--rating-size);
+        padding-right: calc(var(--rating-size) + var(--space-s));
+        /* Padding is used to avoid flicks on hover due to rating-items gap*/
+    }
+    & .rating-item[class*="rating-"]:last-of-type {
+        padding-right: 0;
+    }
+    &.is-edit .rating-item {
+        cursor: pointer;
+        pointer-events: auto;
+    }
+}
+
+.form .rating span.wcag-hide-text {
+    position: absolute;
+}
+
+.rating-item-filled,
+.rating-item-half,
+.rating-item-empty {
+    line-height: 1;
+    top: 0;
+    left: 0;
+    position: absolute;
+    -webkit-transition: opacity linear 150ms;
+    transition: opacity linear 150ms;
+    -servicestudio-position: relative;
+    -servicestudio-margin-right: var(--space-s);
+    -servicestudio-opacity: 1!important;
+    -servicestudio-min-height: 24px;
+    -servicestudio-min-width: 24px;
+}
+
+.rating-item-filled {
+    z-index: 1;
+    opacity: 1;
+}
+
+.rating-item-empty,
+.rating-item-half {
+    z-index: 0;
+    opacity: 0;
+}
