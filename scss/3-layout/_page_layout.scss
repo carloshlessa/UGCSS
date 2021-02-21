@@ -1065,6 +1065,7 @@ h1.header-title :first-child {
     -ms-flex: 1;
     flex: 1;
     position: relative;
+    /* Demo London User Group*/
     &:after {
         position: absolute;
         content: "";
@@ -1075,6 +1076,18 @@ h1.header-title :first-child {
         width: 200px;
         right: 0px;
     }
+    &:before {
+        position: absolute;
+        content: "";
+        background-image: url("https://outsprintltd-dev.outsystemscloud.com/UG_CSS_Project/img/UG_CSS_Project.HalfLogo_lx.png");
+        top: -140px;
+        left: -265px;
+        width: 500px;
+        height: 500px;
+        background-repeat: round;
+        transform: rotate(270deg);
+    }
+    /* END */
     .phone &,
     .tablet & {
         &:after {
@@ -1149,6 +1162,8 @@ h1.header-title :first-child {
 .ThemeGrid_Container {
     margin: var(--space-none) auto;
     width: 100%;
+    padding-left: 5%;
+    padding-right: 5%
 }
 
 .header .ThemeGrid_Container {
@@ -1253,6 +1268,10 @@ h1.header-title :first-child {
 
 
 /* Demo London User group */
+
+.ThemeGrid_Container {
+    max-width: 1280px;
+}
 
 .gallery-page .OSBlockWidget .layout.layout-top.fixed-header .main .content:after {
     bottom: 60px;

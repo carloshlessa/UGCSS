@@ -43,8 +43,8 @@
             width: 80%;
             height: 1176px;
             overflow-x: hidden;
-            -webkit-transform: rotateX(35deg) rotateY(3deg) rotateZ(27deg);
-            transform: rotateX(35deg) rotateY(3deg) rotateZ(27deg);
+            transform: rotateX(45deg) rotateZ(25deg);
+            transform-style: preserve-3d;
             margin: -155px 0 0 155px;
             padding: 150px 50px 500px 50px;
             scrollbar-width: none;

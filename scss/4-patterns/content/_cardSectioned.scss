@@ -86,14 +86,20 @@
 //     background-color: var(--color-neutral-0);
 // }
 .card.card-sectioned.flex-direction-column.align-center {
-    border-radius: 50px;
+    border: none;
+    // border-radius: 50px;
     box-shadow: 1px 1px 35px 0 #000;
     -webkit-transform-origin: 100% 50%;
     -ms-transform-origin: 100% 50%;
     transform-origin: 100% 50%;
     z-index: 10;
     height: auto;
-    background-color: var(--color-primary);
+    // background-color: var(--color-primary);
+    // &:hover {
+    //     transform: rotateX(0deg) rotateZ(-25deg);
+    //     transform-style: preserve-3d;
+    //     transition: .3s;
+    // }
 }
 
 .item-info .OSBlockWidget .card.card-sectioned.flex-direction-column {
@@ -127,6 +133,7 @@
 
 .item-info-height {
     height: 560px;
+    border: var(--color-secondary) 2px solid;
 }
 
 
