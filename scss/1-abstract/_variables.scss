@@ -61,8 +61,7 @@ $colors: "primary",
 "lime",
 "yellow",
 "orange";
-
-$color-primary: red !default;
+$color-primary: #a7e038 !default;
 $color-primary-lightest: lighten($color-primary, 40%);
 $color-primary-lighter: lighten($color-primary, 25%);
 $color-primary-light: lighten($color-primary, 15%);
