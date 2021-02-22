@@ -94,12 +94,11 @@
     transform-origin: 100% 50%;
     z-index: 10;
     height: auto;
-    // background-color: var(--color-primary);
-    // &:hover {
-    //     transform: rotateX(0deg) rotateZ(-25deg);
-    //     transform-style: preserve-3d;
-    //     transition: .3s;
-    // }
+    //background-color: var(--color-primary);
+    &:hover {
+        transform: rotateX(0deg) rotateZ(-25deg);
+        transition: .3s;
+    }
 }
 
 .item-info .OSBlockWidget .card.card-sectioned.flex-direction-column {
@@ -109,6 +108,8 @@
 }
 
 .item-info .OSBlockWidget .card.card-sectioned.flex-direction-column .card-sectioned-top.flex-direction-column {
+    // animation-name: bounceInRight;
+    // animation-duration: 2s;
     & .ph.card-title .item-info__title {}
     & .ph.card-content {
         padding: var(--space-s) var(--space-m);
