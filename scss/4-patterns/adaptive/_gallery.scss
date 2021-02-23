@@ -39,20 +39,20 @@
         &.list-group {
             grid-column-start: 1;
             overflow: initial;
-            /* Extra code to turn the gallery to 35 deg, demo user group*/
-            width: 80%;
-            height: 1176px;
-            overflow-x: hidden;
-            transform: rotateX(45deg) rotateZ(25deg);
-            transform-style: preserve-3d;
-            margin: -155px 0 0 155px;
-            padding: 150px 50px 500px 50px;
-            scrollbar-width: none;
-            &::-webkit-scrollbar {
-                width: 0px;
-                background: transparent;
-            }
-            /* End of extra code*/
+            // /* Extra code to turn the gallery to 35 deg, demo user group*/
+            // width: 80%;
+            // height: 1176px;
+            // overflow-x: hidden;
+            // transform: rotateX(45deg) rotateZ(25deg);
+            // transform-style: preserve-3d;
+            // margin: -155px 0 0 155px;
+            // padding: 150px 50px 500px 50px;
+            // scrollbar-width: none;
+            // &::-webkit-scrollbar {
+            //     width: 0px;
+            //     background: transparent;
+            // }
+            // /* End of extra code*/
         }
         .card,
         .animate {
@@ -81,3 +81,28 @@
         grid-column-end: var(--grid-list-phone);
     }
 }
+
+
+/* Demo User Group */
+
+.columns-item .OSBlockWidget .grid-gallery {
+    .list {
+        &.list-group {
+            width: 80%;
+            height: 1176px;
+            overflow-x: hidden;
+            transform: rotateX(45deg) rotateZ(25deg);
+            transform-style: preserve-3d;
+            margin: -155px 0 0 155px;
+            padding: 150px 50px 500px 50px;
+            scrollbar-width: none;
+            &::-webkit-scrollbar {
+                width: 0px;
+                background: transparent;
+            }
+        }
+    }
+}
+
+
+/* END */

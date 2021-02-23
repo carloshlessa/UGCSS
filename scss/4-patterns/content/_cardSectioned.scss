@@ -82,9 +82,6 @@
 
 /* Demo User Group */
 
-// .columns-item .FiltersWrapper .OSBlockWidget .card {
-//     background-color: var(--color-neutral-0);
-// }
 .card.card-sectioned.flex-direction-column.align-center {
     border: none;
     // border-radius: 50px;
@@ -108,8 +105,6 @@
 }
 
 .item-info .OSBlockWidget .card.card-sectioned.flex-direction-column .card-sectioned-top.flex-direction-column {
-    // animation-name: bounceInRight;
-    // animation-duration: 2s;
     & .ph.card-title .item-info__title {}
     & .ph.card-content {
         padding: var(--space-s) var(--space-m);
